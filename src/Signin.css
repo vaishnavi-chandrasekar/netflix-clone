@@ -1,0 +1,149 @@
+.enter{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("./images/enter.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position:sticky
+  
+  }
+
+
+  .smdiv{
+    width: 30%;
+    height: 50%;
+    /* position: fixed; */
+    background-color:rgba(0, 0, 0, 0.7);
+    margin:0 0 0 35% ;
+    color: white;
+    padding: 4%;
+    border-radius: 0.5em;
+  }
+.images{
+  height: 10%;
+  width: 100%;
+}
+  .netflix{
+   height: 10%;
+  width: 14%;
+    /* position: fixed; */
+    object-fit: contain;
+  }
+
+
+  .phn{
+    background-color: rgba(0 0 0 0.2);
+    border-radius: 0.2em;
+    margin-top: 10%;
+    padding: 3%;
+    color: whitesmoke;
+
+  }
+  .phn,textarea{
+    background-color: rgb(87, 82, 82);
+    font-size: 1.5em;
+    width: 100%;
+  }
+
+  .phn::placeholder{
+    font-size: medium;
+    padding: 2%;
+    color: white;
+  }
+.password{
+padding: 3%;
+  border-radius: 0.2em;
+  margin-top: 8%;
+  color: whitesmoke;
+}
+.password,textarea{
+  background-color: rgba(87,82,82);
+  font-size: 1.5em;
+  width: 100%;
+
+}
+.password::placeholder{
+  font-size: medium;
+  padding: 2%;
+  color: white;
+}
+.submitbtn{
+  color: white;
+  background-color: #E50914;
+  font-size: 1.5em;
+  padding: 2%;
+  width: 100%;
+  margin-top: 20%;
+  margin-left: 2%;
+  border-radius: 0.3em;
+  font-family: Roboto;
+}
+.help{
+  color: white;
+  margin-left: 35%;
+  /* margin-top: 3%; */
+}
+.checkbox{
+  height:10%;
+  width: 100%;
+  margin-left: 4%;
+  margin-top: 3%;
+  display: flex;
+  color: white;
+}
+.signup{
+  height: 10%;
+  width: 80%;
+  display: flex;
+  margin-left: 4%;
+  margin-top: 3%;
+  }
+  .header{
+    font-family: Roboto;
+    color: white;
+  }
+  .terms{
+    margin-left: 4%;
+    font-size: 0.8em;
+    margin-top: 5%;
+  }
+  .doubts{
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 30%;
+    padding-bottom: 5%;
+
+
+  }
+  .number{
+    margin-left: 1%;
+  }
+  .questions{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    margin-left:4% ;
+    margin-top: 2%;
+  }
+  .info{
+    margin-left: 20%;
+    color:gray;
+    display: flex;
+    padding-top: 3%;
+    margin-top: 10%;
+  }
+  .lidiv{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    /* margin-left: 3%; */
+    margin-top: 2%;
+
+  }
+  .color:link{
+    color: white;
+    text-decoration: none;
+  }
+  .color{
+    color: white;
+  }

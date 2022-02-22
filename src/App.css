@@ -1,38 +1,474 @@
-.App {
-  text-align: center;
+
+.back{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),url("./images/Netflix-Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* object-fit: contain; */
+  width: 100%;
+  height: 100%;
+ position: sticky;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+  .started{
+    font-size: 1.5em;
+    padding: 2%;
+    background-color: #E50914;
+    color: white;
+    width: 30%;
+    
+  }
+@media (max-width:1300px){
+  .started{
+    font-size: auto;
+    padding: 3%;
+    background-color: #E50914;
+    color: white;
+    width: auto;
+    
+  }
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .form{
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    margin: 10% 0 0% 30%;
+    color: white;
+    padding-bottom: 10%;
+    
+  }
+@media (max-width:1300px){
+  .form{
+    width: 40%;
+    height: 10%;
+    text-align: center;
+    margin: 0 0 0% 30%;
+    color: white;
+    
+  }
+
+}
+
+  .forms{
+    font-size: 1.5em;
+    padding: 2%;
+     /* height: 42%; */
+    width: 60%; 
+    /* margin-bottom: 6%; */
+  
+  }
+
+@media (min-width:768px){
+  .slogan{
+    font-size: 1.2em;
+ 
+  }
+}
+@media (min-width:1300px){
+  .slogan{
+    font-size: auto;
+  }
+}
+@media (max-width:1300px){
+  .main{
+    font-size:2.5em;
+  
+  }
+}
+@media (min-width:768px){
+
+.main{
+  font-size: 3.5em;
+  font-family: sans-serif;
+  
+}
+}
+  
+  
+.forms::placeholder{
+  font-size: medium;
+}
+
+ @media (min-width:768px){ 
+  .para{
+      color: white;
+      font-size: 2em;
+      
+    }
+ }
+ @media (max-width:1300px){
+    .para{
+        color: white;
+        font-size: 1em;
+        
+      }
+   }
+@media (max-width:768px){
+  .paradown{
+    margin-top: 5%;
+  }
+}
+ 
+    
+/* @media (max-width:768px){ */
+  .nlogo{
+    width: 12%;
+    object-fit: contain;
+    position: fixed;
+    left: 0;
+  }
+
+
+
+  .logo{
+    
+    /* height: 10%;
+    width: 10%; */
+    /* position: fixed; */
+    display: flex;
+    position: relative;
+    top: 0;
+    object-fit: contain;
+    width: 100%;
+    justify-content: space-between;
+       
+  }
+
+@media (min-width:768px){
+  .sign_btn{
+    background-color: #E50914;
+    color: white;
+    height: 60%; 
+    width: 150%;
+    margin-left: 1600%;
+    margin-top: 35%;
+    border-radius: 0.5em;
+    font-size: 1.4em;
+    font-family: Roboto;
+  }
+}  
+
+
+@media (max-width:1300px){
+  .sign_btn{
+    background-color: #E50914;
+    color: white;
+    height: 60%;
+    width: 130%;
+    margin-left: 500%;
+    margin-top: 27%;
+    border-radius: 0.5em;
+    font-size: 1em;
+    font-family: Roboto;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.watch{
+  background-color: black;
+  margin-top: 0.5%;
+  padding: 8% 0 9% 10%;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  /* justify-content: space-evenly; */
+  
+}
+.heading{
+  font-size: 3.5em;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+@media (max-width:768px){
+  .heading{
+    font-size: 1.7em;
+    color: white;
+  }
+}
+.subhead{
+  color: white;
+  font-size: 1.7em;
+}
+@media (max-width:768px){
+  .subhead{
+    font-size: 1.5em;
+    color: white;
+  }
+}
+@media(max-width:768px){
+  .tvimage{
+    width: 80%;
+    margin-top: 12%;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.next{
+  background-color: black;
+  margin-top: 0.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  
+}
+.head{
+  font-size: 3.5em;
+  color: white;
+  margin-left: 10%;
+}
+@media (max-width:768px){
+  .head{
+    font-size: 1.7em;
+    color: white;
+    margin-left: 10%;
   }
-  to {
-    transform: rotate(360deg);
+}
+@media (max-width:768px){
+  .downloadimage{
+    width: 80%;
+    margin-top: 10%;
   }
+}
+.sub{
+  color: white;
+  font-size: 1.7em;
+  margin-left: 10%;
+}
+@media(max-width:768px){
+  .sub{
+    color: white;
+    font-size: 1em;
+    margin-left: 10%;
+  }
+}
+.nextdiv{
+  background-color: black;
+  margin-top: 0.5%;
+  padding: 6% 0 6% 15%;
+  display: flex;
+  
+}
+.next_head{
+  font-size: 3.5em;
+  color: white;
+}
+@media(max-width:768px){
+  .next_head{
+    color: white;
+    font-size: 1.7em;
+  }
+}
+.next_sub{
+  color: white;
+  font-size: 1.7em;
+}
+@media (max-width:768px){
+  .next_sub{
+    color: white;
+    font-size: 1em;
+  }
+}
+@media (max-width:768px){
+  .movieimage{
+    width: 80%;
+    margin-top: 12%;
+  }
+}
+@media (max-width:768px){
+  .kidsimage{
+    width: 80%;
+    margin-top: 10%;
+  }
+}
+.lastdiv{
+  background-color: black;
+  margin-top: 0.5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  
+}
+
+
+.last_div{
+  font-size: 3.5em;
+  color: white;
+  margin-left: 0;
+}
+@media (max-width:768px){
+  .last_div{
+    font-size: 1.7em;
+    color: white;
+  }
+}
+.last__div{
+  color: white;
+  font-size: 1.7em;
+  margin-left: 0;
+}
+@media (max-width:768px){
+  .last__div{
+    font-size: 1em;
+    color: white;
+  }
+}
+.frequently{
+  background-color: black;
+  margin-top: 0.5%;
+  text-align: center;
+  padding-bottom: 6%;
+}
+.qsection{
+  font-size: 3em;
+  color: white;
+  padding-top: 4%;
+}
+.qone{
+  background-color:rgb(59, 55, 55);
+  font-size: 1.8em;
+  width: 50%;
+  margin-top: 3%;
+  color: white;
+ padding: 1%;
+ padding-left: 2%;
+}
+.qtwo,textarea{
+  background-color: rgb(59, 55, 55);
+  font-size: 1.8em;
+  width: 50%;
+  color: white;
+ padding: 1%;
+ padding-left: 2%;
+}
+.qthree,textarea{
+  background-color: rgb(59, 55, 55);
+  font-size: 1.8em;
+  width: 50%;
+  color: white;
+ padding: 1%;
+ padding-left: 2%;
+}
+.qfour,textarea{
+  background-color: rgb(59, 55, 55);
+  font-size: 1.8em;
+  width: 50%;
+  color: white;
+ padding: 1%;
+ padding-left: 2%;
+}
+.qfive,textarea{
+  background-color: rgb(59, 55, 55);
+  font-size: 1.8em;
+  width: 50%;
+  color: white;
+ padding: 1%;
+ padding-left: 2%;
+}
+.ansone{
+font-size: medium;
+color: white;
+margin-left: 25%;
+background-color: rgb(59,55,55);
+width: 50%;
+text-align: left;
+padding-left: 4%;
+}
+.anstwo{
+  font-size: medium;
+  color: white;
+  margin-left: 25%;
+  background-color: rgb(59,55,55);
+  width: 50%;
+  text-align: left;
+  padding-left: 4%;
+
+  }
+.ansthree{
+   font-size: medium;
+   color: white;
+   margin-left: 25%;
+   background-color: rgb(59,55,55);
+   width: 50%;
+   text-align: left;
+   padding-left: 4%; 
+}
+.ansfour{
+  font-size: medium;
+  color: white;
+  margin-left: 25%;
+  background-color: rgb(59,55,55);
+  width: 50%;
+  text-align: left;
+  padding-left: 4%;      
+}
+.ansfive{
+  font-size: medium;
+  color: white;
+  margin-left: 25%;
+  background-color: rgb(59,55,55);
+  width: 50%;
+  text-align: left;
+  padding-left: 4%;
+
+
+}
+.sectionq{
+  width: 40%;
+  height: 10%;
+  text-align: center;
+  margin: 0 0 0% 30%;
+  color: white;
+  padding-bottom: 2%;
+  justify-content: center;
+
+} 
+.final_div{
+  background-color: black;
+  margin-top: 0.5%;
+  width: 100%;
+
+} 
+.details{
+color:  gray;
+  padding: 7% 0 0 10%;
+  display: flex;
+  
+}
+.phn_no{
+  margin-left: 2%;
+  color: gray;
+}
+.t_c{
+  justify-content: space-evenly;
+  color: gray;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+}
+
+a{
+  color: gray;
+}
+.paragraph{
+    margin-top: 9%;
+    margin-left: 6%;
+}
+.paratv{
+  margin-top: 9%;
+  margin-left: 6%;
+}
+.tv{
+  margin-left: 5%;
+}
+.download{
+  margin-left: 15%;
+  
+}
+.paradown{
+  margin-top: 3%;
+}
+.mpic{
+  margin-left: 5%;
+}
+.everywhere{
+  margin-top: 10%;
 }

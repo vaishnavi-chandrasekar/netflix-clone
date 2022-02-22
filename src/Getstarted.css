@@ -1,0 +1,128 @@
+.netflixlogo{
+    height: 10%;
+    width: 100%;
+    display: flex;
+    border-bottom: 1px solid rgb(204, 198, 198);
+    position: fixed;
+    top: 0;
+    justify-content: space-between;
+
+}
+.startdiv{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: sticky;
+    justify-content: center;
+}
+@media (min-width:768px){
+    
+}
+.header_signin{
+    /* margin-left: 1300%;
+    padding-top: 40%; */
+    font-family: Roboto;
+    /* width: 100%; */
+    color: black;
+    object-fit: contain;
+    position: fixed;
+    right: 20px;
+    margin-top: 2%;
+}
+.acc_setup{
+    height: 40%;
+    width: 70%;
+    background-size: cover;
+    margin-left: 15%;
+    margin-top: 10%;
+    padding: 5%;
+    text-align: center;
+    justify-content: center;
+}
+@media(max-width:768px){
+  .acc_setup{
+    font-size: 1em;
+    margin-top: 15%;
+  }
+}
+.Next_btn{
+    width: 40%;
+    font-size: 1.6em;
+    margin-top: 2%;
+    background-color: #E50914;
+    padding: 1.5%;
+    color: white;
+}
+@media(max-width:768px){
+  .Next_btn{
+    width: auto;
+    font-size: auto;
+  }
+}
+.doubts_start{
+    background-color: rgb(233, 235, 236);
+    width: 100%;
+    height: 30%;
+    padding-bottom: 5%;
+
+
+  }
+  .number{
+    margin-left: 1%;
+  }
+  .questions{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    margin-left:4% ;
+    margin-top: 2%;
+  }
+  .info{
+    margin-left: 20%;
+    color:gray;
+    display: flex;
+    padding-top: 3%;
+    margin-top: 10%;
+  }
+  .lidiv{
+    display: flex;
+    justify-content: space-evenly;
+    color: gray;
+    /* margin-left: 3%; */
+    margin-top: 2%;
+
+  }
+  @media(max-width:768px){
+    .signup_email{
+      width: auto;
+      font-size: auto;
+    }
+  }
+  @media(max-width:768px){
+    .signup_password{
+      width: auto;
+      font-size: auto;
+    }
+  }
+
+  .signup_email,textarea{
+       width: 50%;
+       padding: 1%;
+  }
+  .signup_password,textarea{
+      width: 50%;
+      padding: 1%;
+      margin-top: 2%;
+  }
+  .password_characters{
+    margin-top: 2%;
+    color: blue;
+  }
+  .color:link{
+    color: white;
+    text-decoration: none;
+  }
+  .color{
+    color: white;
+  }
